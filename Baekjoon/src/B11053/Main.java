@@ -38,11 +38,10 @@ public class Main {
                         dp2.set(j, list[i]);
                     }
                 }
-
             }
         }
-        System.out.println(dp2.size());
-
+        bw.write(dp2.size() + "");
+        bw.flush();
+        bw.close();
     }
-
 }
